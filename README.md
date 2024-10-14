@@ -1,4 +1,4 @@
-# AWS EKS Production-Ready Cluster with Terraform
+# AWS EKS Production-Ready Cluster Using VPC Module with Terraform
   This repository contains a Terraform configuration for setting up a production-ready Amazon EKS (Elastic Kubernetes Service) cluster on AWS. 
   The configuration follows best practices for infrastructure as code, modularity, and scalability, making it easy to deploy, manage, and scale Kubernetes workloads in a secure environment.
 
