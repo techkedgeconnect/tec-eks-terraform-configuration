@@ -1,0 +1,32 @@
+# Local Terraform directories
+.terraform/
+eks_cluster/.terraform/*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Exclude any .tfvars files that may contain sensitive variables
+*.tfvars
+*.tfvars.json
+
+# Override files that are not typically included in version control
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive files
+.secret/
+secrets.yaml
+
+# Ignore CLI configuration files
+.terraformrc
+.terraform.d/
+
+# Ignore provider lock files
+*.lock.hcl
+
+# Ignore output files
+outputs.tf
